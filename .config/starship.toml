@@ -1,0 +1,16 @@
+add_newline = false
+command_timeout = 1500
+
+[cmd_duration]
+disabled = true
+
+[git_status]
+untracked = "U"
+
+[package]
+disabled = true
+
+[python]
+detect_extensions = []
+detect_folders = [".venv", "venv"]
+pyenv_version_name = true
