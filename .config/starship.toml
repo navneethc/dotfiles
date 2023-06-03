@@ -1,8 +1,14 @@
-add_newline = false
+add_newline = true
 command_timeout = 1500
+
+[character]
+success_symbol = '[❯](bold green)'
 
 [cmd_duration]
 disabled = true
+
+[git_branch]
+style = 'bold yellow'
 
 [git_status]
 untracked = "U"
@@ -11,6 +17,6 @@ untracked = "U"
 disabled = true
 
 [python]
-detect_extensions = []
+detect_extensions = [".python-version"]
 detect_folders = [".venv", "venv"]
 pyenv_version_name = true
