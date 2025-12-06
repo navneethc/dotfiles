@@ -19,4 +19,3 @@ disabled = true
 [python]
 detect_extensions = [".python-version"]
 detect_folders = [".venv", "venv"]
-pyenv_version_name = true
