@@ -11,13 +11,8 @@ if type -q bat
     alias cat="bat -n"
 end
 
-# Start tmux
-#tmux
-
-# pyenv config
-#pyenv init - | source
-status is-login; and pyenv init --path | source
-status is-interactive; and pyenv init - | source
+# fzf integration
+fzf --fish | source
 
 # aliases for git
 alias ga="git add"
