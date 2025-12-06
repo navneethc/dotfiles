@@ -118,10 +118,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# Pyenv config -- added 25 Dec 2020
-export PATH="/home/navneethc/.pyenv/bin:$PATH"
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
-
 # Golang -- added 19 Jun 2021
 export PATH=$PATH:/usr/local/go/bin
+
+. "$HOME/.cargo/env"
