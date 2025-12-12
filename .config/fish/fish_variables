@@ -1,7 +1,8 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR FZF_DEFAULT_OPTS:\x2d\x2dheight\x2040\x25\x20\x2d\x2dtmux\x20bottom\x2c40\x25\x20\x2d\x2dlayout\x20reverse\x20\x2d\x2dborder\x20top\x1e\x2d\x2dheight\x2040\x25\x20\x2d\x2dtmux\x20bottom\x2c40\x25\x20\x2d\x2dlayout\x20reverse\x20\x2d\x2dborder\x20top\x1e\x2d\x2dtmux\x1e\x2d\x2dtmux\x20\x2d\x2dborder
 SETUVAR --export PYENV_ROOT:/home/navneethc/\x2epyenv
-SETUVAR __fish_initialized:3400
+SETUVAR __fish_initialized:3800
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:005fd7
@@ -19,7 +20,7 @@ SETUVAR fish_color_operator:00a6b2
 SETUVAR fish_color_param:00afff
 SETUVAR fish_color_quote:999900
 SETUVAR fish_color_redirection:00afff
-SETUVAR fish_color_search_match:bryellow\x1e\x2d\x2dbackground\x3dbrblack
+SETUVAR fish_color_search_match:white\x1e\x2d\x2dbackground\x3dbrblack
 SETUVAR fish_color_selection:white\x1e\x2d\x2dbold\x1e\x2d\x2dbackground\x3dbrblack
 SETUVAR fish_color_status:red
 SETUVAR fish_color_user:brgreen
@@ -31,4 +32,4 @@ SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 SETUVAR fish_pager_color_selected_background:\x2dr
 SETUVAR fish_prompt_pwd_dir_length:0
-SETUVAR fish_user_paths:/home/navneethc/\x2epyenv/bin\x1e/home/navneethc/\x2elocal/bin\x1e/home/navneethc/\x2ecargo/bin\x1e/usr/local/go/bin
+SETUVAR fish_user_paths:/opt/nvim\x2dlinux\x2dx86_64/bin\x1e/usr/local/racket/bin\x1e/home/navneethc/\x2epyenv/bin\x1e/home/navneethc/\x2elocal/bin\x1e/home/navneethc/\x2ecargo/bin\x1e/home/navneethc/\x2erye/shims
